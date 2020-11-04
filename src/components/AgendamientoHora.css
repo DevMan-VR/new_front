@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    padding: 1em;
+    margin: 0.2em;
+    border-radius: 0.5em;
+}
+
+button[disabled] {
+    background-color: white;
+}
+
+button:hover {
+    background-color: orange;
+    color: white
+}
+
+button[disabled]:hover {
+    background-color: white !important;
+    color: gray !important;
+}

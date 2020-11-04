@@ -1,0 +1,66 @@
+.container {
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps-wrapper {
+   /* background-color: chartreuse;*/
+    width: 50em;
+    display: flex;
+    justify-content: center;
+}
+
+.step-process {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3em;
+   /*background-color: yellow;*/
+    align-items: center;
+    width: 40em;
+}
+
+
+.step-circle {
+    width: 1.6em;
+    background-color: rgb(189, 189, 189);
+    color: white;
+    height: 1.6em;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+.step-line {
+    width: 10em;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    border-width: 0.1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+
+}
+
+.step-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1em;
+    align-items: center;
+    /*background-color: blueviolet;*/
+
+}
+
+.step-text {
+
+}
+
+.space {
+    width: 6.1em;
+    border-width: 0.1em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
